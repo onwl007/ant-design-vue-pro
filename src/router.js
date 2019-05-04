@@ -3,6 +3,7 @@ import Router from "vue-router";
 import NotFound from "./views/404";
 import Forbidden from "./views/403";
 import NProgress from "nprogress";
+import "nprogress/nprogress";
 
 Vue.use(Router);
 
@@ -126,6 +127,7 @@ const router = new Router({
 });
 
 router.beforeEach((to, form, next) => {
+  NProgress.start();
   next();
 });
 

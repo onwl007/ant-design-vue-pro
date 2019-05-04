@@ -1,5 +1,5 @@
 <template>
-  <div>Ant Design Pro ©2019 Created by onwl007</div>
+  <div></div>
 </template>
 
 <script>
